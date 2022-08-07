@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хризантемка - хризантеми та декоративні кущі в Костополі</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/shortcut-logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="images/logo.svg" alt="Logo Chrysantemum">
+                </a>
+                <nav class="menu">
+                    <button class="menu__btn">
+                        <span></span>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="index.html">Головна</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#about">Про нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="plants.html">Рослини</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="blog.html">Блог</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social__list header-social__list">
+                    <li class="social__item header-social__item">
+                        <a class="social__link header-social__link"
+                            href="https://www.instagram.com/chrysanthemums_and_bushes/" target="_blank">
+                            <svg width="40" height="40" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M29.1724 0.949219H10.8276C4.85718 0.949219 0 5.8064 0 11.7769V30.1219C0 36.092 4.85718 40.9492 10.8276 40.9492H29.1727C35.1428 40.9492 40 36.092 40 30.1219V11.7769C40 5.8064 35.1428 0.949219 29.1724 0.949219V0.949219ZM37.655 30.1219C37.655 34.799 33.8498 38.6042 29.1724 38.6042H10.8276C6.15021 38.6042 2.34497 34.799 2.34497 30.1219V11.7769C2.34497 7.09943 6.15021 3.29419 10.8276 3.29419H29.1727C33.8498 3.29419 37.655 7.09943 37.655 11.7769V30.1219Z"
+                                    fill="#4F4F4F" />
+                                <path
+                                    d="M19.998 10.0121C13.9672 10.0121 9.06085 14.9184 9.06085 20.9493C9.06085 26.9802 13.9672 31.8865 19.998 31.8865C26.0289 31.8865 30.9352 26.9802 30.9352 20.9493C30.9352 14.9184 26.0289 10.0121 19.998 10.0121V10.0121ZM19.998 29.5415C15.2605 29.5415 11.4058 25.6871 11.4058 20.9493C11.4058 16.2117 15.2605 12.3571 19.998 12.3571C24.7359 12.3571 28.5903 16.2117 28.5903 20.9493C28.5903 25.6871 24.7359 29.5415 19.998 29.5415V29.5415Z"
+                                    fill="#4F4F4F" />
+                                <path
+                                    d="M31.1982 6.12769C29.416 6.12769 27.9664 7.57758 27.9664 9.3595C27.9664 11.1417 29.416 12.5916 31.1982 12.5916C32.9804 12.5916 34.4303 11.1417 34.4303 9.3595C34.4303 7.57727 32.9804 6.12769 31.1982 6.12769ZM31.1982 10.2463C30.7093 10.2463 30.3113 9.84839 30.3113 9.3595C30.3113 8.8703 30.7093 8.47266 31.1982 8.47266C31.6874 8.47266 32.0853 8.8703 32.0853 9.3595C32.0853 9.84839 31.6874 10.2463 31.1982 10.2463Z"
+                                    fill="#4F4F4F" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item header-social__item">
+                        <a class="social__link header-social__link" href="#">
+                            <svg width="40" height="32" viewBox="0 0 41 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M40.1983 0.801981C39.8065 0.317828 39.1568 0.138283 38.5791 0.353737L1.88723 13.8038C1.1542 14.0741 0.639673 14.7294 0.544153 15.5142C0.449549 16.2952 0.788904 17.053 1.4255 17.4892L6.67024 21.1209C7.17836 21.4729 7.83174 21.5107 8.37587 21.2194L19.7528 15.1337L10.8859 21.8496C10.4697 22.1651 10.221 22.6681 10.221 23.195V29.4159C10.221 30.0576 10.5679 30.6455 11.1264 30.9507C11.6858 31.2559 12.3615 31.2256 12.8928 30.8702L16.8774 28.1891L20.7959 30.8993C21.1392 31.138 21.5481 31.2637 21.9607 31.2637C22.1002 31.2637 22.2403 31.2491 22.3782 31.22C22.9285 31.1036 23.4152 30.7588 23.714 30.274L40.3146 2.50704C40.6378 1.97243 40.5914 1.2883 40.1983 0.801981V0.801981ZM21.8732 28.7655L17.8152 25.9587C17.533 25.7631 17.2076 25.6653 16.8826 25.6653C16.5646 25.6653 16.2463 25.7591 15.9677 25.9467L12.5659 28.2356V23.546L28.2229 11.6871C28.9221 11.1574 29.0982 10.1934 28.6322 9.44491C28.1659 8.6964 27.2323 8.44348 26.4605 8.85644L7.64955 18.9187L3.21352 15.8469L37.0016 3.46142L21.8732 28.7655Z"
+                                    fill="#4F4F4F" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item header-social__item">
+                        <a class="social__link header-social__link" href="#">
+                            <svg width="24" height="40" viewBox="0 0 24 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.2639 40.2637H7.7745C6.69057 40.2637 5.80883 39.3933 5.80883 38.3234V23.8751H2.0228C0.938867 23.8751 0.0571289 23.0045 0.0571289 21.9348V15.7437C0.0571289 14.6738 0.938867 13.8034 2.0228 13.8034H5.80883V10.7031C5.80883 7.62909 6.78672 5.01373 8.63645 3.14026C10.4945 1.25824 13.0912 0.263672 16.1458 0.263672L21.0949 0.271606C22.1769 0.273438 23.0571 1.1438 23.0571 2.21191V7.96021C23.0571 9.03015 22.1757 9.90051 21.0921 9.90051L17.7599 9.90173C16.7437 9.90173 16.4849 10.1028 16.4296 10.1645C16.3384 10.2667 16.2298 10.5557 16.2298 11.3538V13.8031H20.8417C21.1888 13.8031 21.5252 13.8876 21.8143 14.0469C22.4379 14.3909 22.8256 15.0412 22.8256 15.744L22.8231 21.9351C22.8231 23.0045 21.9414 23.8748 20.8574 23.8748H16.2298V38.3234C16.2298 39.3933 15.3478 40.2637 14.2639 40.2637V40.2637ZM8.18445 37.9187H13.8539V22.8253C13.8539 22.1109 14.4429 21.5298 15.1663 21.5298H20.4475L20.4496 16.1484H15.166C14.4426 16.1484 13.8539 15.5673 13.8539 14.8529V11.3538C13.8539 10.4376 13.9482 9.39575 14.6488 8.61267C15.4953 7.66602 16.8293 7.55676 17.7593 7.55676L20.6815 7.55554V2.61597L16.1439 2.60864C11.235 2.60864 8.18445 5.71045 8.18445 10.7031V14.8529C8.18445 15.567 7.5958 16.1484 6.87236 16.1484H2.43275V21.5298H6.87236C7.5958 21.5298 8.18445 22.1109 8.18445 22.8253V37.9187ZM21.0902 2.61658H21.0905H21.0902Z"
+                                    fill="#4F4F4F" />
+                            </svg>
+                        </a>
+                    </li>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <h1 class="title-header">
+                    Хризантеми <br><span class="subtitle-header">та декоративні кущі</span>
+                </h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- SECTION ABOUT -->
+        <section id="about" class="about section-page">
+            <div class="container">
+                <h2 class="about__title title">Про нас</h2>
+                <div class="about__text">
+                    <p>
+                        <a class="about__link" href="https://www.instagram.com/chrysanthemums_and_bushes/"
+                            target="_blank">"Хризантемка"</a>
+                        — сімейне господарство, що вирощує квіти та декоративні кущі.
+
+
+                    </p>
+                    <p>
+                        Завітайте до нас і ми з радістю допоможемо вам вибрати барвисту хризантему чи незвичний кущ, що
+                        прикрасить ваш сад.
+                    </p>
+                    <p>Ми знаходимося: місто Костопіль, вулиця Рівненська, 89.</p>
+                    <p>Телефон: <a class="phone" href="tel:80508543543">+38-(000)-000-00-00</a>.</p>
+                    <p>Більше інформації: Інстаграм
+                        <a class="about__link" href="https://www.instagram.com/chrysanthemums_and_bushes/"
+                            target="_blank">@chrysanthemums_and_bushes</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- BLOCKQUOTE  -->
+
+        <blockquote class="blockquote">
+
+            <p class="blockquote__text">«Зроби світ навколо яскравішим разом з квітами!»</p>
+
+        </blockquote>
+
+        <!-- SECTION GALLERY -->
+        <section class="gallery section-page">
+            <div class="container">
+                <div class="gallery__slider-box">
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">1 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img01.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">2 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img02.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">3 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img03.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">4 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img04.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">5 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img05.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">6 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img06.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">7 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img07.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">8 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img08.JPG" alt="Flower">
+                    </div>
+                    <div class="gallery__slider fade">
+                        <div class="gallery__slider-number">9 / 9</div>
+                        <img class="gallery__img" src="images/gallery/img09.jpg" alt="Flower">
+                    </div>
+                    <a class="gallery__arrow-prev">❮</a>
+                    <a class="gallery__arrow-next">❯</a>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="logo logo-footer" href="index.html">
+                    <img class="logo__img" src="images/logo.svg" alt="Logo Chrysantemum">
+                </a>
+                <nav class="menu menu-footer">
+                    <ul class="menu__list menu__list-footer">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link-footer" href="index.html">Головна</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link-footer" href="#about">Про нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link-footer" href="plants.html">Рослини</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link menu__link-footer" href="blog.html">Блог</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social__list footer-social__list">
+                    <li class="social__item footer-social__item">
+                        <a class="social__link footer-social__link"
+                            href="https://www.instagram.com/chrysanthemums_and_bushes/" target="_blank">
+                            <svg width="40" height="40" viewBox="0 0 40 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M29.1724 0.949219H10.8276C4.85718 0.949219 0 5.8064 0 11.7769V30.1219C0 36.092 4.85718 40.9492 10.8276 40.9492H29.1727C35.1428 40.9492 40 36.092 40 30.1219V11.7769C40 5.8064 35.1428 0.949219 29.1724 0.949219V0.949219ZM37.655 30.1219C37.655 34.799 33.8498 38.6042 29.1724 38.6042H10.8276C6.15021 38.6042 2.34497 34.799 2.34497 30.1219V11.7769C2.34497 7.09943 6.15021 3.29419 10.8276 3.29419H29.1727C33.8498 3.29419 37.655 7.09943 37.655 11.7769V30.1219Z"
+                                    fill="#4F4F4F" />
+                                <path
+                                    d="M19.998 10.0121C13.9672 10.0121 9.06085 14.9184 9.06085 20.9493C9.06085 26.9802 13.9672 31.8865 19.998 31.8865C26.0289 31.8865 30.9352 26.9802 30.9352 20.9493C30.9352 14.9184 26.0289 10.0121 19.998 10.0121V10.0121ZM19.998 29.5415C15.2605 29.5415 11.4058 25.6871 11.4058 20.9493C11.4058 16.2117 15.2605 12.3571 19.998 12.3571C24.7359 12.3571 28.5903 16.2117 28.5903 20.9493C28.5903 25.6871 24.7359 29.5415 19.998 29.5415V29.5415Z"
+                                    fill="#4F4F4F" />
+                                <path
+                                    d="M31.1982 6.12769C29.416 6.12769 27.9664 7.57758 27.9664 9.3595C27.9664 11.1417 29.416 12.5916 31.1982 12.5916C32.9804 12.5916 34.4303 11.1417 34.4303 9.3595C34.4303 7.57727 32.9804 6.12769 31.1982 6.12769ZM31.1982 10.2463C30.7093 10.2463 30.3113 9.84839 30.3113 9.3595C30.3113 8.8703 30.7093 8.47266 31.1982 8.47266C31.6874 8.47266 32.0853 8.8703 32.0853 9.3595C32.0853 9.84839 31.6874 10.2463 31.1982 10.2463Z"
+                                    fill="#4F4F4F" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item footer-social__item">
+                        <a class="social__link footer-social__link" href="#">
+                            <svg width="40" height="32" viewBox="0 0 41 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M40.1983 0.801981C39.8065 0.317828 39.1568 0.138283 38.5791 0.353737L1.88723 13.8038C1.1542 14.0741 0.639673 14.7294 0.544153 15.5142C0.449549 16.2952 0.788904 17.053 1.4255 17.4892L6.67024 21.1209C7.17836 21.4729 7.83174 21.5107 8.37587 21.2194L19.7528 15.1337L10.8859 21.8496C10.4697 22.1651 10.221 22.6681 10.221 23.195V29.4159C10.221 30.0576 10.5679 30.6455 11.1264 30.9507C11.6858 31.2559 12.3615 31.2256 12.8928 30.8702L16.8774 28.1891L20.7959 30.8993C21.1392 31.138 21.5481 31.2637 21.9607 31.2637C22.1002 31.2637 22.2403 31.2491 22.3782 31.22C22.9285 31.1036 23.4152 30.7588 23.714 30.274L40.3146 2.50704C40.6378 1.97243 40.5914 1.2883 40.1983 0.801981V0.801981ZM21.8732 28.7655L17.8152 25.9587C17.533 25.7631 17.2076 25.6653 16.8826 25.6653C16.5646 25.6653 16.2463 25.7591 15.9677 25.9467L12.5659 28.2356V23.546L28.2229 11.6871C28.9221 11.1574 29.0982 10.1934 28.6322 9.44491C28.1659 8.6964 27.2323 8.44348 26.4605 8.85644L7.64955 18.9187L3.21352 15.8469L37.0016 3.46142L21.8732 28.7655Z"
+                                    fill="#4F4F4F" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item footer-social__item">
+                        <a class="social__link footer-social__link" href="#">
+                            <svg width="24" height="40" viewBox="0 0 24 41" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.2639 40.2637H7.7745C6.69057 40.2637 5.80883 39.3933 5.80883 38.3234V23.8751H2.0228C0.938867 23.8751 0.0571289 23.0045 0.0571289 21.9348V15.7437C0.0571289 14.6738 0.938867 13.8034 2.0228 13.8034H5.80883V10.7031C5.80883 7.62909 6.78672 5.01373 8.63645 3.14026C10.4945 1.25824 13.0912 0.263672 16.1458 0.263672L21.0949 0.271606C22.1769 0.273438 23.0571 1.1438 23.0571 2.21191V7.96021C23.0571 9.03015 22.1757 9.90051 21.0921 9.90051L17.7599 9.90173C16.7437 9.90173 16.4849 10.1028 16.4296 10.1645C16.3384 10.2667 16.2298 10.5557 16.2298 11.3538V13.8031H20.8417C21.1888 13.8031 21.5252 13.8876 21.8143 14.0469C22.4379 14.3909 22.8256 15.0412 22.8256 15.744L22.8231 21.9351C22.8231 23.0045 21.9414 23.8748 20.8574 23.8748H16.2298V38.3234C16.2298 39.3933 15.3478 40.2637 14.2639 40.2637V40.2637ZM8.18445 37.9187H13.8539V22.8253C13.8539 22.1109 14.4429 21.5298 15.1663 21.5298H20.4475L20.4496 16.1484H15.166C14.4426 16.1484 13.8539 15.5673 13.8539 14.8529V11.3538C13.8539 10.4376 13.9482 9.39575 14.6488 8.61267C15.4953 7.66602 16.8293 7.55676 17.7593 7.55676L20.6815 7.55554V2.61597L16.1439 2.60864C11.235 2.60864 8.18445 5.71045 8.18445 10.7031V14.8529C8.18445 15.567 7.5958 16.1484 6.87236 16.1484H2.43275V21.5298H6.87236C7.5958 21.5298 8.18445 22.1109 8.18445 22.8253V37.9187ZM21.0902 2.61658H21.0905H21.0902Z"
+                                    fill="#4F4F4F" />
+                            </svg>
+                        </a>
+                    </li>
+            </div>
+            <div class="footer__contacts">
+                <p class="footer__contacts-address">Адреса: м. Костопіль, вул. Рівненська, 89</p>
+                <p class="footer__contacts-phone">Телефон:
+                    <a class="phone" href="tel:80508543543">+38-(000)-000-00-00</a>
+                </p>
+
+            </div>
+            <p class="footer__copy">© 2022, "Хризантемка"</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

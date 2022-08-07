@@ -1,0 +1,12 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.header__content-page {
+ 
+   background-color: var(--bg-color-section);
+   min-height: 100vh;
+}
+.title-header__page {
+  padding-top: 50px;
+}
